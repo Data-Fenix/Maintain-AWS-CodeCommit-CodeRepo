@@ -1,11 +1,5 @@
-# Maintain-AWS-CodeCommit-CodeRepo
-In this project we will give a proper guideline, how to main your AWS CodeCommit repository
-
-
-# Maintain AWS CodeCommit Repository
-
-A brief description of what this project does and who it's for
-
+# Maintain your AWS CodeCommit Code Repository
+In this project we will give a proper guideline about the maintaining your AWS CodeCommit repository
 
 ## Table of Content
   * [Demo](#demo)
