@@ -11,20 +11,20 @@ A brief description of what this project does and who it's for
   * [Demo](#demo)
   * [What is code repository?](#what-is-code-repository?)
   * [Benefits of having a code repository](#Benefits-of-having-a-code-repository)
-  * [Motivation](#motivation)
-  * [Technical Aspect](#technical-aspect)
+  * [Why AWS CodeCommit?](#Why-AWS-CodeCommit?)
   * [Installation](#installation)
   * [Run](#run)
   * [Deployement on Heroku](#deployement-on-heroku)
   * [Directory Tree](#directory-tree)
-  * [To Do](#to-do)
   * [Bug / Feature Request](#bug---feature-request)
   * [Technologies Used](#technologies-used)
   * [Contributing](#Contributing)
   * [License](#license)
   * [Credits](#credits)
 
-##   What is code repository?
+## Demo
+
+## What is code repository?
 A code repository is a place to store codes,documents, notes,scripts and other items related to your project. In other word we can say code storage. Usually code repositories are handled by VCS (Version Control System) softwares such as git. If you need to success your software development project, you must maintain a good code repository.
 
 
@@ -95,7 +95,9 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 <p><b> ML Enginner </b> : Lahiru Dissanayake </p>
 <p><b> Data Scientist </b>: Shashi Withanage </p>
-## License
 
+## License
 Copyright 2022 Lahiru Dissanayake and Shashi Withange
+
 ## Credits
+https://docs.aws.amazon.com/codecommit/latest/userguide/getting-started-cc.html
