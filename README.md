@@ -94,4 +94,5 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 Copyright 2022 Lahiru Dissanayake and Shashi Withange
 
 ## Credits
-https://docs.aws.amazon.com/codecommit/latest/userguide/getting-started-cc.html
+1) https://docs.aws.amazon.com/codecommit/latest/userguide/getting-started-cc.html
+2) https://www.geeksforgeeks.org/merge-strategies-in-git/
