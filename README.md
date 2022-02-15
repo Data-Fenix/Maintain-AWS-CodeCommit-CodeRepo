@@ -23,14 +23,9 @@ A brief description of what this project does and who it's for
   * [Contributing](#Contributing)
   * [License](#license)
   * [Credits](#credits)
+
 ##   What is code repository?
 A code repository is a place to store codes,documents, notes,scripts and other items related to your project. In other word we can say code storage. Usually code repositories are handled by VCS (Version Control System) softwares such as git. If you need to success your software development project, you must maintain a good code repository.
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
 ## Benefits of having a code repository
@@ -52,12 +47,49 @@ Code repositories are great digital portfolios or resumes. Are you looking for a
 You can push incremental changes instead of the entire project. This allows you to reduce the time and increase the speed and frequency of your software development lifecycle.
 
 ## Why AWS CodeCommit?
-## Installation
-## Run
-## Directory Tree
-## Bug / Feature Requests
-## Technologies Used
 
+<p>There are a lot of code repository providers in the marketplace and among them Github, Gitlab, Bitbucket and AWS CodeCommit are the leading service providers in the industry. With the rapid development of the Cloud indsutry,they produce <b> code free and easy maintanable repositories(anyone can maintain their repositories without any git knowledge)</b>. As a result of that AWS produced CodeCommit and if you are using AWS services (Specially CodePipelines) easily clone this code repo to your service.</p>
+<p>In this article we will talk about the breif introduction and the capabilities of AWS CodeCommit.</p>
+
+## Installation
+#### Requirements
+Only thing you need to satisfy in this list is you must have an AWS account. If you don't have an account you can create it free, using below link:
+https://aws.amazon.com/free/
+
+## Run
+
+## Directory Tree
+```
+├── inferencing 
+│   ├── model
+|       ├── nginx.conf
+|       ├── predictor.py
+|       ├── serve.py
+|       └── wsgi.py
+│   ├── Dockerfile
+├── preprocessing
+│   ├── Dockerfile
+|   └── preprocessing.py
+├── training
+│   ├── model
+|       └──train.py
+|   ├── Dockerfile
+├── build_docker.ipynb
+├── sagemaker_pipeline.ipynb
+├── aws_helper.py
+├── CONTRIBUTING.md
+├── LICENSE
+├── setup.py
+├── tox.ini
+└──WA_Fn-UseC_-Telco-Customer-Churn.csv
+```
+
+## Bug / Feature Requests
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/Data-Fenix/maintain-aws-codecommit-repository/issues/new) by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/Data-Fenix/maintain-aws-codecommit-repository/issues/new). Please include sample queries and their corresponding results.
+
+## Technologies Used
 [<img target="_blank" src="https://www.vickalp.com/wp-content/uploads/2021/03/image-35-1024x275.png" width=200>](https://www.vickalp.com/wp-content/uploads/2021/03/image-35-1024x275.png) 
 ## Contributing
 
