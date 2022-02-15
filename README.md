@@ -1,2 +1,69 @@
 # Maintain-AWS-CodeCommit-CodeRepo
 In this project we will give a proper guideline, how to main your AWS CodeCommit repository
+
+
+# Maintain AWS CodeCommit Repository
+
+A brief description of what this project does and who it's for
+
+
+## Table of Content
+  * [Demo](#demo)
+  * [What is code repository?](#what-is-code-repository?)
+  * [Benefits of having a code repository](#Benefits-of-having-a-code-repository)
+  * [Motivation](#motivation)
+  * [Technical Aspect](#technical-aspect)
+  * [Installation](#installation)
+  * [Run](#run)
+  * [Deployement on Heroku](#deployement-on-heroku)
+  * [Directory Tree](#directory-tree)
+  * [To Do](#to-do)
+  * [Bug / Feature Request](#bug---feature-request)
+  * [Technologies Used](#technologies-used)
+  * [Contributing](#Contributing)
+  * [License](#license)
+  * [Credits](#credits)
+##   What is code repository?
+A code repository is a place to store codes,documents, notes,scripts and other items related to your project. In other word we can say code storage. Usually code repositories are handled by VCS (Version Control System) softwares such as git. If you need to success your software development project, you must maintain a good code repository.
+
+## Acknowledgements
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
+## Benefits of having a code repository
+
+
+* High security
+Repositories facilitate a good security of our codes. If something happen to main version of the code, we can revert the changes or retrive older version of the code. And also some repository providers automattically encrypts our repo’s files and allow us tom cutomize user specific access to our repository. (ex: AWS Identity and Access Management (IAM))
+* 	Always have a backup
+Lets say you store your all the codes inside your local computer. Accidently your laptop has attacked by a malware and your files were removed by that virus. What happened your files are gone forever. But if you store your all the codes inside a code repository you always have a backup.
+*	Collaboration
+Code repositories help you to collaborate on code with numerous other developers or teammates on your company via commiting, pull requests, branching and merging. They can easily review your code and give feedbacks. And also they can easily control project remotely.
+*	Version controlling
+Easily maintain and keep track of the latest and different versions of the scripts. It also offers simplified debugging option using side-by-side comparison, which highlited the difference between two versions. 
+*	Proper documentation
+By using readme file of a any repository, you can easily orgnize your project properly. You can add table of contents, demos, screenshots, guidelines, etc.
+*	Showcase your talent
+Code repositories are great digital portfolios or resumes. Are you looking for a new job or do you need to show your work expereince? Code reporsitory is the best way to do that. You can build an attractive profile with include all the project you done have so far and include that repository link into your cv as well. 
+*	Faster development lifecycle
+You can push incremental changes instead of the entire project. This allows you to reduce the time and increase the speed and frequency of your software development lifecycle.
+
+## Why AWS CodeCommit?
+## Installation
+## Run
+## Directory Tree
+## Bug / Feature Requests
+## Technologies Used
+
+[<img target="_blank" src="data:image/png;base64,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" width=200>](data:image/png;base64,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) 
+## Contributing
+
+<p><b> ML Enginner </b> : Lahiru Dissanayake </p>
+<p><b> Data Scientist </b>: Shashi Withanage </p>
+## License
+
+Copyright 2022 Lahiru Dissanayake and Shashi Withange
+## Credits
