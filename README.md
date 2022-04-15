@@ -1,6 +1,8 @@
 # Maintain your AWS CodeCommit Code Repository
 In this project we will give a proper guideline about the maintaining your AWS CodeCommit repository
 
+[<img target="_blank" src="https://github.com/Data-Fenix/maintain-aws-codecommit-repository/blob/main/codecommit.png">](https://github.com/Data-Fenix/maintain-aws-codecommit-repository/blob/main/codecommit.png) 
+
 ## Table of Content
   * [Demo - How to maintain AWS CodeCommit repository?](#demo-how-to-maintain-AWS-CodeCommit-repository?)
   * [What is code repository ?](#what-is-code-repository-?)
